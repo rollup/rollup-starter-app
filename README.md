@@ -10,8 +10,8 @@ This repo contains a bare-bones example of how to create an application using Ro
 Clone this repository and install its dependencies:
 
 ```bash
-git clone https://github.com/rollup/rollup-starter-lib
-cd rollup-starter-lib
+git clone https://github.com/rollup/rollup-starter-app
+cd rollup-starter-app
 npm install
 ```
 
