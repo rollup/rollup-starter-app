@@ -7,9 +7,11 @@ import uglify from 'rollup-plugin-uglify';
 const production = !process.env.ROLLUP_WATCH;
 
 export default {
-	entry: 'src/main.js',
-	dest: 'public/bundle.js',
-	format: 'iife', // immediately-invoked function expression — suitable for <script> tags
+	input: 'src/main.js',
+	output: {
+		file: 'public/bundle.js',
+		format: 'iife' // immediately-invoked function expression — suitable for <script> tags
+	},
 	plugins: [
 		resolve(), // tells Rollup how to find date-fns in node_modules
 		commonjs(), // converts date-fns to ES modules
