@@ -1,7 +1,7 @@
 {
   "name": "rollup-starter-app",
   "devDependencies": {
-    "rollup": "^0.46.0",
+    "rollup": "^0.51.8",
     "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-plugin-uglify": "^2.0.1"
