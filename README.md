@@ -21,7 +21,7 @@ The `public/index.html` file contains a `<script src='bundle.js'>` tag, which me
 
 `npm start` launches a server, using [serve](https://github.com/zeit/serve). Navigate to [localhost:5000](http://localhost:5000).
 
-`npm run dev` (run it in a separate terminal to `npm start`) will continually rebuild the application as your source files change.
+`npm run watch` (run it in a separate terminal to `npm start`) will continually rebuild the application as your source files change.
 
 
 ## License
