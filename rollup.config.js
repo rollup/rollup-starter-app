@@ -17,5 +17,5 @@ export default {
 		commonjs(), // converts date-fns to ES modules
 		production && uglify() // minify, but only in production
 	],
-	sourceMap: true
+	sourcemap: true
 };
