@@ -10,12 +10,12 @@ export default {
 	input: 'src/main.js',
 	output: {
 		file: 'public/bundle.js',
-		format: 'iife' // immediately-invoked function expression — suitable for <script> tags
+		format: 'iife', // immediately-invoked function expression — suitable for <script> tags
+		sourcemap: true
 	},
 	plugins: [
 		resolve(), // tells Rollup how to find date-fns in node_modules
 		commonjs(), // converts date-fns to ES modules
 		production && uglify() // minify, but only in production
-	],
-	sourcemap: true
+	]
 };
