@@ -2,10 +2,10 @@
   "name": "rollup-starter-app",
   "devDependencies": {
     "npm-run-all": "^4.1.2",
-    "rollup": "^0.54.1",
+    "rollup": "^0.55.5",
     "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-node-resolve": "^3.0.0",
-    "rollup-plugin-uglify": "^2.0.1"
+    "rollup-plugin-uglify": "^3.0.0"
   },
   "dependencies": {
     "date-fns": "^1.28.5",
