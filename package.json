@@ -1,20 +1,21 @@
 {
   "name": "rollup-starter-app",
   "devDependencies": {
-    "npm-run-all": "^4.1.2",
-    "rollup": "^0.55.5",
-    "rollup-plugin-commonjs": "^8.0.2",
-    "rollup-plugin-node-resolve": "^3.0.0",
-    "rollup-plugin-uglify": "^3.0.0"
+    "npm-run-all": "4.x.x",
+    "rollup": "0.60.x",
+    "rollup-plugin-commonjs": "9.x.x",
+    "rollup-plugin-node-resolve": "3.x.x",
+    "rollup-plugin-uglify": "4.x.x"
   },
   "dependencies": {
-    "date-fns": "^1.28.5",
-    "serve": "^6.4.8"
+    "date-fns": "1.x.x",
+    "serve": "7.x.x"
   },
   "scripts": {
     "build": "rollup -c",
     "watch": "rollup -c -w",
     "dev": "npm-run-all --parallel start watch",
-    "start": "serve public"
+    "start": "serve public",
+    "serve:help": "serve --help"
   }
 }
