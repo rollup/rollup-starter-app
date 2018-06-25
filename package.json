@@ -5,11 +5,11 @@
     "rollup": "^0.60.1",
     "rollup-plugin-commonjs": "^9.1.3",
     "rollup-plugin-node-resolve": "^3.3.0",
-    "rollup-plugin-uglify": "^4.0.0"
+    "rollup-plugin-uglify": "^4.0.0",
+    "serve": "^8.1.2"
   },
   "dependencies": {
-    "date-fns": "^1.19.0",
-    "serve": "^8.1.2"
+    "date-fns": "^1.19.0"
   },
   "scripts": {
     "build": "rollup -c",
