@@ -13,6 +13,11 @@ Clone this repository and install its dependencies:
 git clone https://github.com/rollup/rollup-starter-app
 cd rollup-starter-app
 npm install
+
+# or
+npx degit "rollup/rollup-starter-app" my-app
+cd my-app
+npm install
 ```
 
 The `public/index.html` file contains a `<script src='bundle.js'>` tag, which means we need to create `public/bundle.js`. The `rollup.config.js` file tells Rollup how to create this bundle, starting with `src/main.js` and including all its dependencies, including [date-fns](https://date-fns.org).
