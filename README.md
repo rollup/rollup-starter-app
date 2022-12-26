@@ -2,8 +2,7 @@
 
 This repo contains a bare-bones example of how to create an application using Rollup, including importing a module from `node_modules` and converting it from CommonJS.
 
-*See also https://github.com/rollup/rollup-starter-lib*
-
+_See also https://github.com/rollup/rollup-starter-lib_
 
 ## Getting started
 
