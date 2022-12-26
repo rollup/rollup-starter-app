@@ -7,6 +7,7 @@
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-terser": "^0.2.1",
     "npm-run-all": "^4.1.5",
+    "prettier": "^2.8.1",
     "rollup": "^3.8.1",
     "sirv-cli": "^2.0.2"
   },
@@ -17,6 +18,7 @@
     "build": "rollup -c",
     "watch": "rollup -c -w",
     "dev": "npm-run-all --parallel start watch",
+    "format": "prettier -w .",
     "start": "sirv public/ --no-clear"
   }
 }
